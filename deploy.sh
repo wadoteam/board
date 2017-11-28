@@ -7,6 +7,7 @@ rm -f _data.json
 
 mkdir www;
 
+echo "Write _data.json"
 # run projects.js to pull the latest data from github Project
 node $PWD/projects.js wadoteam | \
   "$PWD/bin/jq-linux64" -s 'group_by(.column_name) |
@@ -22,6 +23,7 @@ node $PWD/projects.js wadoteam | \
 # Need to remove node_modules to avoid a conflict that causes `harp compile` to fail
 rm -r node_modules;
 
+echo "Compile files with harp"
 # run our compile script, discussed above
 harp compile
 
