@@ -20,8 +20,6 @@ node $PWD/projects.js wadoteam | \
     }' \
   > _data.json
 
-# Need to remove node_modules to avoid a conflict that causes `harp compile` to fail
-rm -r node_modules;
 
 echo "Compile files with harp"
 # run our compile script, discussed above

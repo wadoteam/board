@@ -10,7 +10,7 @@ var request = require('request')
 var through = require('through2')
 var parseLinkHeader = require('parse-link-header')
 
-var TOKEN = "29b646477dd60c425630cc004833cae5c4a561e3"
+var TOKEN = "1e84956574ec43700b79d7b3733e351a4579578d"
 
 var APIROOT = 'https://api.github.com/'
 var organization = process.argv[2]

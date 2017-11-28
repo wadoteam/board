@@ -6,7 +6,7 @@ node_js:
 env:
   global:
   - GH_REF: github.com/wadoteam/website-files.git
-  - GH_TOKEN: 29b646477dd60c425630cc004833cae5c4a561e3
+  - GH_TOKEN: 1e84956574ec43700b79d7b3733e351a4579578d
 branches:
   only:
   - master
