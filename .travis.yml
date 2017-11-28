@@ -1,5 +1,5 @@
 before_script: npm install -g harp
-script: GH_TOKEN=29b646477dd60c425630cc004833cae5c4a561e3 bash ./deploy.sh
+script: bash ./deploy.sh
 language: node_js
 node_js:
 - 5.7.1
