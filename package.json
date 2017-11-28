@@ -18,14 +18,6 @@
   "scripts": {
     "test": "standard"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bionode/github-project-public.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bionode/github-project-public/issues"
-  },
-  "homepage": "https://github.com/bionode/github-project-public#readme"
+  "license": "ISC"
 }
