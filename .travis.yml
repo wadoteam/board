@@ -1,0 +1,12 @@
+before_script: npm install -g harp
+script: bash ./deploy.sh
+language: node_js
+node_js:
+- 5.7.1
+env:
+  global:
+  - GH_REF: github.com/wadoteam/board.git
+  - secure: UFnqocEyzyp08l7VP3HMuXjemwoboKKHxTx+sjaFROeyr1IZUIn4z4tsbcFfmakKU0lyUpL2Ck9s4hgMGeb9EftuiFmC6d2Z67B1wARQ/WI2cPwpJzkOHxHDgMP0OIHd/9gtTLMEyh0D+EOyqckMb8RG0J+qmpkzLzOOe3bN/VZZlROBV//SODQ2hlTmPk5ZzJubzMyvFTPpNvU1Z3lGZj2iC6uZ6GvdZMYeeK1/5CEceYnpBc5LXDuD4cpE+lWS/J5r5YEGVDEjTec4tim+c9LpaTaxvqiIIGIQS+UN2twu1Oo0koKU7e/Y+YKK/x/3pOUCFXfx99D9xg/xUv3ldWTtrx1c0UoHLHEMTkqeRMYOthMGMZ7giBUM7YxzZgYhJNkfG0CTP5P2mulgmeDFLHY2lfk+QJ5YEys3nuDVQbwVq0W9GO9XNUhz91+F3oRsGyeo5qwC9nNSGGPV4PxebHtRyg4q2RggRXU+f905PO09PNbknTcVFS3twzH4Cly5oRap4oNH/gg7bqr7vUCZA0WSIxoLNQWLUlzJWp7hFlWUYfk3A82NIIXg35bEn2POTjINkOnyvuwEBqBsbB/myALeMnNDbZwGPyzgAiXWqw/Iwu9Su9rTEzssUkrV89tV0EoKIdaQ38lvVa2adGnvRh2vRDJdoj4DxsPnrA+zQY0=
+branches:
+  only:
+  - master
